@@ -8,14 +8,20 @@
 }
 
 body {
-  /* background-color: rgb(248, 247, 255);
+  
   margin: 0;
   padding: 0;
-   */
+      background-color: #f5f8ff;
 }
   
 header {
   position: relative;
+}
+ 
+
+main{
+      
+      
 }
 
 nav{
@@ -27,7 +33,7 @@ justify-content: space-around;
       color: #4E47FF;
       font-family: inter;
       font-size: 34px;
-      font-weight: bolder;
+      font-weight: 900;
       line-height: 150px;
 }
 
@@ -44,6 +50,7 @@ justify-content: space-around;
 }
 .btn-primary:hover{
       background-color: #0800ff;
+      transition: background 0.3s;
 }
 
 .banner-background-image{
@@ -169,15 +176,102 @@ gap: 180px;
       justify-content: center;
       text-align: center;
       margin-top: 50px;
-      width: ;
+      width: 1140px;
+      font-family: raleway;
+      margin: 0 auto;
+      background-color: white;
+      margin-bottom: 125px;
+      padding:30px 30px 80px 30px;
+      border-radius: 15px;
+        box-shadow: 0 0 8px rgba(0,0,0,0.1);
+
 }
 
 .section-4-content-title{
       font-size: 50px;
       font-weight: bold;
-      font-family: raleway;
-      margin-bottom: 20px;
+      margin-top: 60px;
+      margin-bottom: 25px;
+}
+
+.section-4-content-title-p{
+      margin-bottom: 25px;
+      color: #908f93;
+}
+
+.section-4 .btn-primary{
+      font-weight: 400;
+}
+.section-4-image{
+      background-image: url(/Assets/wc-big.png);
+      width: 840px;
+      height: 365px;
+      border-radius: 25px;
+      margin-top: 25px;
 }
 
 
 
+/* section-5 */
+
+.section-5{
+      
+}
+
+.section-5-content{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 1140px;
+      height: 632px;
+      margin: 0 auto;
+      margin-bottom: 125px;
+}
+
+.section-5-content-title{
+      font-size: 95px;
+      font-family: raleway;
+      font-weight: bold;
+}
+
+.contact-form form{
+      display: flex;
+      flex-direction: column;
+      
+}
+.section-5-content form  input{
+        box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border: 1px solid #ccc;
+color: #000000;
+font-size: 18px;
+font-family: inter;
+}
+
+.contact-form input,
+.contact-form textarea {
+            margin: 10px 0;
+
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+          box-shadow: 0 0 8px rgba(0,0,0,0.1);
+          text-align: left;
+          padding: 20px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+ text-align: left;
+}
+.contact-form form label{
+      margin-top: 10px;
+}
+
+
+.section-5 button{
+      margin-top: 20px;
+      padding-right: 215px;
+      padding-left: 215px;
+      cursor: pointer;
+  
+}
