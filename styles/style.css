@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
+}
+
+body {
+  /* background-color: rgb(248, 247, 255);
+  margin: 0;
+  padding: 0;
+   */
+}
+  
+header {
+  position: relative;
+}
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.nav-logo{
+      color: #4E47FF;
+      font-family: inter;
+      font-size: 34px;
+      font-weight: bolder;
+      line-height: 150px;
+}
+
+.btn-primary{
+      background-color: #4E47FF;
+      color: white;
+      padding: 12px 36px;
+      border-radius: 7px;
+      border: none;
+      font-family: Raleway;
+      font-size: 16px;
+      font-weight: bold;
+      cursor:pointer;
+}
+.btn-primary:hover{
+      background-color: #0800ff;
+}
+
+.banner-background-image{
+      background-image: url('/Assets/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 700px;     
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: -1;
+  margin-bottom: 125px;
+}
+
+
+.banner{
+      margin-top: 150px;
+      margin-bottom: 15px;
+      color: #252432;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+}
+.banner h1{
+      font-size: 65px;
+      font-family: Raleway;
+            margin-bottom: 30px;
+
+}
+
+/* section-1 */
+
+
+.section-1{
+display: flex;
+align-items: center;
+justify-content:space-between;
+width: 1140px;
+height: 328px;
+margin: 350px auto 120px auto;
+}
+
+.section-1-content h2{
+font-size: 42px;
+font-weight: bold;
+font-family: Raleway;
+margin-bottom: 25px;
+}
+.section-1-content p{
+      color: rgb(37, 36, 50, 50%);
+      font-size: 24px;
+      font-weight: normal;
+      font-family: raleway;
+      margin-bottom: 20px;
+
+}
+.section-1-image{
+background-image: url(/Assets/wc-mini.png);
+width: 403px;
+height: 328px;
+border-radius: 30px;
+}
+
+
+/* section-2 */
+
+
+.section-2{
+      background-color: rgb(78, 71, 255, 10%);
+      width: 1140px;
+      height: 306px;
+      border-radius: 25px;
+      padding: 50px;
+      margin: 0 auto;
+      margin-bottom: 120px;
+}
+
+.section-2-content h1{
+font-size: 38px;
+font-family: raleway;
+color: #252432;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin-bottom: 40px;
+}
+
+.section-2-content-data{
+      display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+font-weight: 900;
+font-size: 80px;
+font-family: inter;
+color: #4E47FF;
+gap: 180px;
+}
+.section-2-content-data-sub{
+      font-size: 20px;
+      font-weight: normal;
+      color: rgb(37, 36, 50, 50%);
+}
+
+
+
+
+
+
+
+
+.section-4{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 50px;
+      width: ;
+}
+
+.section-4-content-title{
+      font-size: 50px;
+      font-weight: bold;
+      font-family: raleway;
+      margin-bottom: 20px;
+}
+
+
+
