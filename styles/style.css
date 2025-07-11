@@ -275,3 +275,48 @@ font-family: inter;
       cursor: pointer;
   
 }
+
+
+/* section-6 */
+
+.section-6{
+      background-color: white;
+      height: 430px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+}
+.section-6-content-title{
+      font-size: 100PX;
+      font-weight: 900;
+      font-family: inter;
+      color: #4E47FF;
+      margin-bottom: 10px;
+}
+.section-6-content-sub{
+      color: #8987A1;
+}
+
+
+
+.section-6-footer {
+  display: flex;
+  justify-content: center; 
+  gap: 40px;               
+  margin-top: 25px;        
+}
+
+.section-6-footer a {
+  text-decoration: none;
+  color: #8987A1;
+  font-family: Inter;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+
+}
+
+.section-6-footer a:hover {
+  color: #1e1e88;
+  border-bottom: 2px solid #4E47FF; 
+}
