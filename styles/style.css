@@ -19,11 +19,6 @@ header {
 }
  
 
-main{
-      
-      
-}
-
 nav{
 display: flex;
 align-items: center;
@@ -54,7 +49,7 @@ justify-content: space-around;
 }
 
 .banner-background-image{
-      background-image: url('/Assets/Hero-bg.png');
+      background-image: url('../Assets/Hero-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -115,7 +110,7 @@ margin-bottom: 25px;
 
 }
 .section-1-image{
-background-image: url(/Assets/wc-mini.png);
+background-image: url(../Assets/wc-mini.png);
 width: 403px;
 height: 328px;
 border-radius: 30px;
@@ -162,35 +157,6 @@ gap: 180px;
       font-weight: normal;
       color: rgb(37, 36, 50, 50%);
 }
-
-
-
-/* section-3 */
-
-/* .section-3{
-      width: 1140px;
-      margin: 0 auto;
-}
-
-.section-3-content-title{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      font-family: raleway;
-      font-weight: bold;
-      font-size: 42px;
-      color: #252432;
-}
-.card-1{
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-      text-align: center;
-      flex-direction: column;
-      
-
-} */
 
 .testimonial-section {
   width: 1140px;
@@ -270,14 +236,6 @@ gap: 180px;
   color: #888;
 }
 
-
-
-
-
-
-
-
-
 /* section-4 */
 
 .section-4{
@@ -313,7 +271,7 @@ gap: 180px;
       font-weight: 400;
 }
 .section-4-image{
-      background-image: url(/Assets/wc-big.png);
+      background-image: url(../Assets/wc-big.png);
       width: 840px;
       height: 365px;
       border-radius: 25px;
@@ -323,10 +281,6 @@ gap: 180px;
 
 
 /* section-5 */
-
-.section-5{
-      
-}
 
 .section-5-content{
       display: flex;
